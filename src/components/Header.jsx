@@ -40,7 +40,7 @@ const Header = () => {
           <Logo />
 
           <button
-            onClick={handleOpenModal}
+            
             className='text-xs md:text-sm flex items-center gap-1'
           >
             <MapPinIcon className='w-4 h-4 text-gray-700' />
