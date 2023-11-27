@@ -39,14 +39,7 @@ const Header = () => {
         <div className='flex items-center gap-2 md:gap-4'>
           <Logo />
 
-          <button
-            
-            className='text-xs md:text-sm flex items-center gap-1'
-          >
-            <MapPinIcon className='w-4 h-4 text-gray-700' />
-            {address?.city}
-            <ChevronDownIcon className='w-4 h-4 text-orange-500' />
-          </button>
+          
         </div>
 
         {isLocationModalOpen ? <LocationModal /> : null}
