@@ -1,5 +1,5 @@
 {
-  "name": "foody",
+  "name": "Swiggy Clone",
   "version": "1.0.0",
   "description": "A food delivery app",
   "scripts": {
@@ -12,7 +12,7 @@
     "namaste",
     "react"
   ],
-  "author": "Dinesh Rout",
+  "author": "Bhuvnesh",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.11",
