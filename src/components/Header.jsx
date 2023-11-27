@@ -103,22 +103,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        {isLoading ? null : isAuthenticated ? (
-          <button
-            onClick={() => loginWithRedirect()}
-            className='ml-4 bg-orange-400 text-white p-2 px-4 rounded-md items-center gap-2 hidden md:flex'
-          >
-            Logout{' '}
-          </button>
-        ) : (
-          <button
-            onClick={() => loginWithRedirect()}
-            className='ml-4 bg-orange-400 text-white p-2 px-4 rounded-md items-center gap-2 hidden md:flex'
-          >
-            Login
-          </button>
-        )}
-
+       
         {!isMenuOpen ? (
           <div className='shadow-lg transition-all fixed top-full -right-[100%] bg-white h-screen p-4 px-8'>
             <>
