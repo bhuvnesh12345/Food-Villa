@@ -2,8 +2,6 @@
 
 A food delivery application made using React and Swiggy's API.
 
-This project was built as a part of the course Namaste React by Akshay Saini.
-
 ## Tech Stack
 
 - React
@@ -14,7 +12,6 @@ This project was built as a part of the course Namaste React by Akshay Saini.
 
 ## Features
 
-- Get restaurants by current location
 - Add to cart
 - Shimmer UI
 -
@@ -24,7 +21,7 @@ This project was built as a part of the course Namaste React by Akshay Saini.
 1. Clone the repo
 
 ```bash
-git clone https://github.com/DineshRout779/FoodHunt
+git clone [https://github.com/bhuvnesh12345/Swiggy_Clone]
 ```
 
 2. Install dependencies
